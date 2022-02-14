@@ -1,0 +1,6 @@
+1-333332 	    usuarios
+333333-400000 	oficina
+400001-499998	puestoatencion
+499999-766665	producto
+766666-833330	operacion
+833331-1000000	accion

@@ -1,0 +1,20 @@
+{
+	"title": "Nombres de las tablas de Parranderos Uniandes para la aplicación B",
+	"unidadPersistencia": "Bancandes",
+	"tablas":
+	[
+		"Bancandes_sequence",
+		"B_ACCION",
+		"B_AFC",
+		"B_CDT",
+		"B_CUENTA",
+		"B_EMPLEADO",
+		"B_OFICINA",
+		"B_OPERACION",
+		"B_PRESTAMO",
+		"B_PRODUCTO",
+		"B_PUESTOATENCION",
+		"B_USUARIO",
+		"B_CUENTAJURIDICA"
+	]
+}

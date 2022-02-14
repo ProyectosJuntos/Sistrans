@@ -1,0 +1,168 @@
+{
+  "title": "Aplicación transaccional de Parranderos Uniandes",
+  "frameH": 600,
+  "frameW": 800,
+  "bannerPath": "./src/main/resources/config/logo.png",
+  "menuBar": [
+    {
+      "menuTitle": "Usuario",
+      "options": [
+        {
+          "label": "Registrar",
+          "event": "adicionarUsuario"
+        },
+        {
+          "label": "Buscar por ID",
+          "event": "consultarUsuario"
+        },
+        {
+          "label": "Listar",
+          "event": "listarUsuarios"
+        },
+        {
+          "label": "Desactivar por Id",
+          "event": "desactivarUsuarioPorId"
+        },
+        {
+          "label": "Usuario mas activo",
+          "event": "buscarUsuarioMasActivo"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Cuenta Juridica",
+      "options": [
+        {
+          "label": "Asociar cuenta para pagos",
+          "event": "asociarCuentaParaPagoEmpleado"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Cuenta",
+      "options": [
+        {
+          "label": "Registrar",
+          "event": "adicionarCuenta"
+        },
+        {
+          "label": "Listar",
+          "event": "listarCuentas"
+        },
+        {
+          "label": "Cerrar por Id",
+          "event": "cerrarCuentaPorId"
+        },
+        {
+          "label": "Realizar Operacion",
+          "event": "OperacionSobreCuenta"
+        },
+        {
+          "label": "Pagar nomina",
+          "event": "pagarNomina"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Prestamo",
+      "options": [
+        {
+          "label": "Registrar",
+          "event": "adicionarPrestamo"
+        },
+        {
+          "label": "Listar",
+          "event": "listarPrestamos"
+        },
+        {
+          "label": "Cerrar por Id",
+          "event": "cerrarPrestamoPorId"
+        },
+        {
+          "label": "Realizar Operacion",
+          "event": "OperacionSobrePrestamo"
+        },
+        {
+          "label": "Operacion V2",
+          "event": "OperacionSobrePrestamoV2"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Operaciones",
+      "options": [
+        {
+          "label": "Listar operaciones",
+          "event": "listarOperaciones"
+        },
+        {
+          "label": "Consultar 10 operaciones de mayor movimiento",
+          "event": "dar10Operaciones"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Mantenimiento",
+      "options": [
+        {
+          "label": "Mostrar log Parranderos",
+          "event": "mostrarLogParranderos"
+        },
+        {
+          "label": "Mostrar log datanucleus",
+          "event": "mostrarLogDatanuecleus"
+        },
+        {
+          "label": "Limpiar log de parranderos",
+          "event": "limpiarLogParranderos"
+        },
+        {
+          "label": "Limpiar log de datanucleus",
+          "event": "limpiarLogDatanucleus"
+        },
+        {
+          "label": "Limpiar Base de Datos",
+          "event": "limpiarBD"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Documentación",
+      "options": [
+        {
+          "label": "Presentación general",
+          "event": "mostrarPresentacionGeneral"
+        },
+        {
+          "label": "Modelo conceptual",
+          "event": "mostrarModeloConceptual"
+        },
+        {
+          "label": "Esquema de la BD",
+          "event": "mostrarEsquemaBD"
+        },
+        {
+          "label": "Script creación de la BD",
+          "event": "mostrarScriptBD"
+        },
+        {
+          "label": "Arquitectura de referencia",
+          "event": "mostrarArqRef"
+        },
+        {
+          "label": "Javadoc Parranderos",
+          "event": "mostrarJavadoc"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Acerca de ...",
+      "options": [
+        {
+          "label": "Acerca de ...",
+          "event": "acercaDe"
+        }
+      ]
+    }
+  ]
+}
